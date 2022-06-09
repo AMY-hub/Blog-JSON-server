@@ -1,0 +1,50 @@
+{
+    "posts": [{
+            "title": "CSS transitions",
+            "body": "The idea of CSS transitions is simple. We describe a property and how its changes should be animated. When the property changes, the browser paints the animation. \n That is, all we need is to change the property, and the fluid transition will be done by the browser. \n There are 4 properties to describe CSS transitions:\n - transition-property\n -transition-duration\n-transition-timing-function\n -transition-delay.",
+            "author": "John Doe",
+            "topic": "css",
+            "date": "9.06.22",
+            "id": 1
+        },
+        {
+            "title": "The display Property",
+            "body": "The display property specifies if how an element is displayed.\nEvery HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.\nA block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).\nExamples of block-level elements:\n<div>\n<h1 > - < h6 >\n< p >\n< form >\n< header >\n< footer >\n< section >\nInline Elements\nAn inline element does not start on a new line and only takes up as much width as necessary.\nExamples of inline elements:\n<span>\n<a>\n<img>\nDisplay: none;\ndisplay: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. Take a look at our last example on this page if you want to know how this can be achieved.\nThe <script> element uses display: none; as default.",
+            "author": "Mary Jane",
+            "topic": "css",
+            "id": 2
+        },
+        {
+            "title": "HTML Form Attributes",
+            "body": "The Action Attribute\nThe action attribute defines the action to be performed when the form is submitted.\nUsually, the form data is sent to a file on the server when the user clicks on the submit button.\nTip: If the action attribute is omitted,the action is set to the current page.\nThe Target Attribute\nThe target attribute specifies where to display the response that is received after submitting the form.\nThe target attribute can have one of the following values:\n_blank - The response is displayed in a new window or tab\n_self - The response is displayed in the current window\n_parent - The response is displayed in the parent frame\n_top - The response is displayed in the full body of the window\nframename - The response is displayed in a named iframe\nThe default value is _self which means that the response will open in the current window.\nThe Method Attribute\nThe method attribute specifies the HTTP method to be used when submitting the form data.\nThe form - data can be sent as URL variables(with method = \"get\") or as HTTP post transaction(with method = \"post\").\nThe default HTTP method when submitting form data is GET.",
+            "author": "John Doe",
+            "topic": "html",
+            "date": "9.06.22",
+            "id": 3
+        },
+        {
+            "title": "The HTML <script> Tag",
+            "body": "The HTML <script> tag is used to define a client-side script (JavaScript).\nThe <script> element either contains script statements, or it points to an external script file through the src attribute.\nCommon uses for JavaScript are image manipulation, form validation, and dynamic changes of content.\nTo select an HTML element, JavaScript most often uses the document.getElementById() method.\nThe HTML <noscript>Tag\nThe HTML <noscript> tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support scripts.",
+            "author": "John Doe",
+            "topic": "html javascript",
+            "date": "9.06.22",
+            "id": 4
+        },
+        {
+            "title": "JavaScript JSON",
+            "body": "What is JSON?\nJSON stands for JavaScript Object Notation\nJSON is a lightweight data interchange format\nJSON is language independent\n*JSON is \"self-describing\" and easy to understand \n*The JSON syntax is derived from JavaScript object notation syntax,but the JSON format is text only.Code for reading and generating JSON data can be written in any programming language.\nThe JSON Format Evaluates to JavaScript Object/\nThe JSON format is syntactically identical to the code for creating JavaScript objects.\nBecause of this similarity, a JavaScript program can easily convert JSON data into native JavaScript objects.\nJSON Syntax Rules:\n- Data is in name/value pairs\n- Data is separated by commas\n- Curly braces hold objects\n- Square brackets hold arrays",
+            "author": "John Doe",
+            "topic": "javascript",
+            "date": "9.06.22",
+            "id": 5
+        },
+        {
+            "title": "What are Cookies?",
+            "body": "Cookies are data, stored in small text files, on your computer.\nWhen a web server has sent a web page to a browser,the connection is shut down,and the server forgets everything about the user.\nCookies were invented to solve the problem \"how to remember information about the user\":\n- When a user visits a web page, his / her name can be stored in a cookie.\n- Next time the user visits the page,the cookie \"remembers\"his / her name.\n- When a browser requests a web page from a server, cookies belonging to the page are added to the request. This way the server gets the necessary data to \"remember\" information about users.\nNone of the examples below will work if your browser has local cookies support turned off.",
+            "author": "John Doe",
+            "topic": "javascript",
+            "date": "9.06.22",
+            "id": 6
+        }
+    ]
+}
