@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+{}
+=======
 {
     "posts": [{
             "title": "CSS transitions",
@@ -48,3 +51,4 @@
         }
     ]
 }
+>>>>>>> b36e6fa1298c723d2137bd69a179aecbcd473f2d
