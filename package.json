@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://AMY-hub.github.io/projects-json-server",
   "scripts": {
-    "start": "node \"./index.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node \"./server/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d server"
   },
   "keywords": [],
   "author": "",
